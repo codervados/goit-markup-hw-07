@@ -127,13 +127,13 @@ button:focus {
   padding: 188px 0;
   text-align: center;
   background-color: var(--headers-text-color);
-  height: 600px;
   max-width: 1440px;
-  background-image: linear-gradient(
+  /* height: 600px;
+   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/studio/hero-bg.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -731,8 +731,8 @@ button:focus {
   margin: 24px auto 0;
 }
 
-.modal-send:hover,
-.modal-send:focus {
+.modal-send-btn:hover,
+.modal-send-btn:focus {
   background-color: var(--btn-active-color);
 }
 

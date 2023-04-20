@@ -76,4 +76,15 @@
   .contacts-item-link:focus {
     color: var(--btn-active-color);
   }
+
+  /* HERO */
+
+  .hero-container {
+    height: 436px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/studio/hero-bg-tablet-min.jpg);
+  }
 }

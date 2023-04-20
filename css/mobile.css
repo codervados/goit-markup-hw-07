@@ -1,4 +1,6 @@
 @media screen and (max-width: 767px) {
+  /* HEADER */
+
   .site-nav {
     display: none;
   }
@@ -150,5 +152,21 @@
     width: 24px;
     height: 24px;
     fill: #f4f4fd;
+  }
+
+  /* HERO */
+
+  .hero-container {
+    height: 432px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/studio/hero-bg-mobile-min.jpg);
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
   }
 }
