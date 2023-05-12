@@ -60,7 +60,6 @@ button:focus {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1158px;
-  /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -104,7 +103,6 @@ button:focus {
 
 .header-container {
   display: flex;
-  /* або можливо через margin-right: auto  */
   justify-content: space-between;
   align-items: center;
 }
@@ -112,7 +110,6 @@ button:focus {
 .page-header-nav {
   display: flex;
   align-items: center;
-  /* margin-right: auto; */
 }
 
 .site-nav {
@@ -148,8 +145,6 @@ button:focus {
   position: absolute;
   left: 0;
   bottom: -1px;
-  /* margin-top: 45px; */
-  /* top: 100%; */
   width: 100%;
   height: 4px;
   background-color: var(--btn-active-color);
@@ -175,7 +170,6 @@ button:focus {
 .feedback {
   display: flex;
   font-style: normal;
-  /* align-items: center; */
 }
 
 .contacts-item-link {
@@ -207,7 +201,7 @@ button:focus {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/studio/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -261,30 +255,6 @@ button:focus {
 .skills-list-title {
   margin-top: 8px;
 }
-/* 
-.antena::before {
-  background-image: url(../images/css/antenna.svg);
-}
-.clock::before {
-  background-image: url(../images/css/clock.svg);
-}
-.diagram::before {
-  background-image: url(../images/css/diagram.svg);
-}
-.astronaut::before {
-  background-image: url(../images/css/astronaut.svg);
-}
-
-.skills-list-item::before {
-  display: block;
-  content: "";
-  height: 112px;
-  background-color: var(--btns-color);
-  border-radius: 4px;
-  background-size: 64px;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 .skills-img {
   display: flex;
@@ -425,7 +395,6 @@ button:focus {
 }
 
 .customer {
-  /* width: 168px; */
   flex-basis: calc((100% - 24px * 5) / 6);
 }
 
@@ -529,7 +498,6 @@ button:focus {
   justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
-  /* margin-bottom: 72px; */
 }
 
 .filter-nav {
@@ -547,7 +515,6 @@ button:focus {
   letter-spacing: 0.04em;
   color: var(--active-color);
   cursor: pointer;
-  /* transition: var(--transition-main); */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -710,7 +677,6 @@ button:focus {
 .modal-input-icon {
   position: absolute;
   left: 16px;
-  /* top: 8px; */
   top: 50%;
   transform: translateY(-50%);
 }
@@ -882,10 +848,6 @@ button:focus {
 .subscribe-btn:focus {
   background-color: var(--btn-active-color);
 }
-
-/* .modal-subscribe-btn {
-  position: relative;
-} */
 
 .subscribe-icon {
   position: absolute;

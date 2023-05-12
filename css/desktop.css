@@ -1,14 +1,14 @@
 @media screen and (min-width: 1158px) {
-  .container {
+  /* .container {
     max-width: 1158px;
-  }
-  .site-nav {
+  } */
+  /* .site-nav {
     margin-left: 76px;
-  }
+  } */
 
-  .contacts {
+  /* .contacts {
     gap: 40px;
-  }
+  } */
   .contacts-item-link {
     font-weight: 400;
     font-size: 16px;
@@ -24,11 +24,12 @@
 
   /* HERO */
 
-.hero-container {
-  height: 600px;
-   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/studio/hero-bg.jpg);}
+  .hero-container {
+    height: 600px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/studio/hero-bg.jpg);
+  }
 }
