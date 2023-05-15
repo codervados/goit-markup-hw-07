@@ -8,19 +8,20 @@
 
   /* .contacts {
     gap: 40px;
-  } */
+  }
+
   .contacts-item-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-  }
+  } */
 
-  .page-header {
+  /* .page-header {
     border-bottom: 1px solid var(--footer-main-text-color);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  }
+  } */
 
   /* HERO */
 
