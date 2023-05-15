@@ -165,15 +165,15 @@
 
   .hero-container {
     /* height: 432px; */
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/studio/hero-bg-mobile-min.jpg);
+      url(../images/studio/hero-bg-mobile-min.jpg); */
   }
 
-  .hero-title {
+  /* .hero-title {
     font-size: 36px;
     line-height: 1.11;
-  }
+  } */
 }

@@ -25,12 +25,12 @@
 
   /* HERO */
 
-  .hero-container {
+  /* .hero-container {
     height: 600px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/studio/hero-bg.jpg);
-  }
+  } */
 }
